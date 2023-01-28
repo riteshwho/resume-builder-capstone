@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Heebo:wght@600&family=Roboto:wght@500&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  padding: 0 48px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 2px 2px 8px grey;
+}
+
+.header .logo {
+  height: 35px;
+}
+
+.navbar-list {
+  display: flex;
+  gap: 48px;
+  list-style: none;
+}
+
+.navbar-link:link,
+.navbar-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(112, 111, 111);
+  transition: all 0.3s;
+}
+
+.navbar-link:link,
+.navbar-link:visited:hover {
+  color: rgb(20, 122, 218);
+}
+
+.main {
+  display: flex;
+}
+
+.mid-one {
+  width: 40%;
+  margin-top: 70px;
+  margin-left: 150px;
+}
+
+.mid-two {
+  width: 40%;
+  margin-top: 70px;
+}
+.para {
+  font-family: "Caveat", cursive;
+  font-size: large;
+}
+
+.heading,
+.line {
+  font-family: "Heebo", sans-serif;
+}
